@@ -16,4 +16,4 @@ if __name__ == "__main__":
     print(check_password_strength(password))
 
 
-// Code zum Teil gefüllt von ChatGPT
+#Code zum Teil gefüllt von ChatGPT
