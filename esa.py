@@ -1,1 +1,1 @@
-print("Die Präsenz war viel besser als Online")
+print("Die Praesenz war viel besser als Online")
