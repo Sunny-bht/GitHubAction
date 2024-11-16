@@ -1,1 +1,20 @@
+name: Run Python Script on Windows
 
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  run-script:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+      
+    - name: Run script
+      shell: cmd
+      run: python esa.py
